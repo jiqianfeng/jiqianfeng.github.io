@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[IDEA热部署tomcat]]></title>
     <url>%2F2018%2F11%2F26%2FIDEA%E7%83%AD%E9%83%A8%E7%BD%B2tomcat%2F</url>
-    <content type="text"><![CDATA[点击idea中tomcat设置 点击deployment查看Deploy at the server startup 中tomcat每次所运行的包是 xxxx:war 还是其他,如果是xxxx:war包,请更换.点击旁边绿色加号,选择 xxxx:war exploded ,然后将 xxxx:war 点击红色删除掉 配置启动参数在server中 将 “On Update action”、”On frame deactivation” 都选择 update classes and resources，如下图所示 大功告成,已亲测,不用因为每次修改代码而重启了]]></content>
+    <content type="text"><![CDATA[点击idea中tomcat设置点击deployment查看Deploy at the server startup 中tomcat每次所运行的包是 xxx:war 还是其他,如果是xxx:war包,请更换.点击旁边绿色加号,选择 xxx:war exploded ,然后将 xxx:war 点击红色删除掉 配置启动参数在server中 将 “On Update action”、”On frame deactivation” 都选择 update classes and resources，如下图所示 大功告成,已亲测,不用因为每次修改代码而重启了]]></content>
       <categories>
         <category>IntelliJ IDEA</category>
         <category>Tomcat</category>
