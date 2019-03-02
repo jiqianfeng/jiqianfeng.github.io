@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Spring学总结]]></title>
+    <url>%2F2018%2F11%2F26%2FSpring%E5%AD%A6%E6%80%BB%E7%BB%93%2F</url>
+    <content type="text"><![CDATA[Spring的学习将分为四天的时间来学习，学如逆水行舟，不进则退。有这份笔记学习Spring就够了，每天进步一小点，四天进步一大步。本笔记将结合时间案例进行说明，内容详尽，请耐心看完…… day1一、Spring的概述1.1、什么是SpringSpring是一个开源框架，Spring是于 2003 年兴起的一个轻量级的 Java 开发框架，由 Rod Johnson在其著作 Expert One-On-One J2EE Development and Design 中阐述的部分理念和原型衍生而来。它是为了解决企业应用开发的复杂性而创建的。框架的主要优势之一就是其分层架构，分层架构允许使用者选择使用哪一个组件，同时为 J2EE 应用程序开发提供集成的框架。Spring 使用基本的 JavaBean来完成以前只可能由 EJB 完成的事情。然而， Spring 的用途不仅限于服务器端的开发。从简单性、可测试性和松耦合的角度而言，任何 Java 应用都可以从 Spring 中受益。 Spring 的核心是控制反转（IoC）和面向切面（AOP）。简单来说， Spring 是一个分层的 JavaSE/EEfull-stack(一站式) 轻量级开源框架 EE 开发分成三层结构: WEB 层:Spring MVC. 业务层:Bean 管理:(IOC) 持久层:Spring 的 JDBC 模板.ORM 模板用于整合其他的持久层框架.Expert One-to-One J2EE Design and Development :J2EE 的设计和开发:(2002.EJB)Expert One-to-One J2EE Development without EJB :J2EE 不使用 EJB 的开发. 1.2、为什么要学习Spring方便解耦，简化开发Spring 就是一个大工厂，可以将所有对象创建和依赖关系维护，交给 Spring 管理AOP 编程的支持Spring 提供面向切面编程，可以方便的实现对程序进行权限拦截、运行监控等功能声明式事务的支持只需要通过配置就可以完成对事务的管理，而无需手动编程方便程序的测试Spring 对 Junit4 支持，可以通过注解方便的测试Spring 程序方便集成各种优秀框架Spring 不排斥各种优秀的开源框架，其内部提供了对各种优秀框架（如： Struts、 Hibernate、MyBatis、 Quartz 等）的直接支持降低 JavaEE API 的使用难度Spring 对 JavaEE 开发中非常难用的一些 API（JDBC、 JavaMail、远程调用等），都提供了封装，使这些 API 应用难度大大降低 1.3、Spring的版本Spring 3.X 和 Spring4.X 二、Spring的入门案例2.1、下载Spring的开发包官网： http://spring.io/下 载 地 址 ：http://repo.springsource.org/libs-release-local/org/springframework/spring 解压:(Spring 目录结构:) docs :API 和开发规范. libs :jar 包和源码. schema :约束 2.2、创建web项目，引入Spring的开发包]]></content>
+      <categories>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>Spring</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[IDEA热部署tomcat]]></title>
     <url>%2F2018%2F11%2F26%2FIDEA%E7%83%AD%E9%83%A8%E7%BD%B2tomcat%2F</url>
     <content type="text"><![CDATA[点击idea中tomcat设置点击deployment查看Deploy at the server startup 中tomcat每次所运行的包是 xxx:war 还是其他,如果是xxx:war包,请更换.点击旁边绿色加号,选择 xxx:war exploded ,然后将 xxx:war 点击红色删除掉 配置启动参数在server中 将 “On Update action”、”On frame deactivation” 都选择 update classes and resources，如下图所示 大功告成,已亲测,不用因为每次修改代码而重启了]]></content>
